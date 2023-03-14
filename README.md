@@ -1,4 +1,7 @@
 # naver-login-join
+<style>
+  h1 {background-color :#eee;}
+</style>
 네이버로그인협의프로젝트
 <h1>0314-팀원협의내용</h1>
 <p>통합 색상 컬러 및 텍스트 크기, 조정, 굵기, 색상등 협의</p>
