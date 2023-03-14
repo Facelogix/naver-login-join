@@ -8,13 +8,15 @@
   <li>로그인2에 대한기본 html작성 및 일부 css작성</li>
   <li>변경에 대한 회의사안 요청 - 텍트 크기 조정 필요</li>
   <li></li>
-
+</ol>
+<hr>
 <h2>윤서영</h2>
 <ol>
   <li></li>
   <li></li>
   <li></li>
-
+</ol>
+<hr>
 <h2>정재훈</h2>
 <ol>
   <li>로그인1 join1.html 작성 및 css 작성</li>
