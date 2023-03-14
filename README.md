@@ -14,6 +14,6 @@
 
 <h2>정재훈</h2>
 <p>
-로그인1 join1.html 작성 및 css 
+로그인1 join1.html 작성 및 css 작성<br>
 협의 내용 드라이브로 공유
 </p>
