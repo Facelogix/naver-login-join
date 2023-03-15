@@ -30,10 +30,19 @@ body {background:#f5f6f7;}
     font-size: 1rem; line-height: 1.5em; letter-spacing: -0.02em;
     font-weight: 500;
 }
-.main #mbFrm fieldset ul li a {
-    border: 1px solid #08a600; text-align: right;
+.main #mbFrm fieldset ul li:nth-of-type(3) > h2 {
+    /* background-color: aqua; */
+    position: relative;
+}
+.main #mbFrm fieldset ul li:nth-of-type(3) a {
+    border: 1px solid #08a600; position: absolute; right: 0;
+    padding: 5px; color: #08a600; background-color: #fff;
+    font-size: 0.875rem;
 }
 .main #mbFrm fieldset ul li label em {color: #08a600;}
+.main #mbFrm fieldset ul li:last-child label em {
+    color: #ccc;
+}
 .main #mbFrm fieldset ul li:first-child label {
     text-decoration: underline;
 }
