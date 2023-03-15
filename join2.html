@@ -11,31 +11,41 @@
     <link rel="stylesheet" href="./styles/join2.css" type="text/css">
 </head>
 <body>
-    <div class="bg1 bg">
-        <div class="logo">
-            <img src="./images/logo.JPG" alt="네이버 홈페이지로 바로 이동">
-        </div>
-    </div>
-    <main class="bg2 bg">
-        <form action="" method="post" id="containal">
-            <fieldset>
-                <legend>아이디검색</legend>
-                <h2>아이디</h2>
-                <input type="text" autofocus placeholder="@naver.com" class="id"><br>
-                <h2>비밀번호</h2>
-                <input type="password">
-                <h2>비밀번호 재확인</h2>
-                <input type="password">
-                <h2>이름</h2>
-                <input type="text"><br>
-                <div class="date">
-                    <form action="#" method="" id="">
-                        <fieldset>
-                            <legend>생년월일</legend>
-                            <h2>생년월일</h2>
-                            <div>
-                                <input type="text" value="" placeholder="년(4자)">
-                                <select name="" id="month">
+    <main>
+        <h1><a href="" class=""><img src="./images/logo.JPG" alt="홈페이지로 이동"></a></h1>
+        <div class="containal">
+            <form action="" method="post">
+                <fieldset>
+                    <legend class="skip">입력양식</legend>
+                    <dl>
+                        <dt>아이디</dt>
+                        <dd>
+                            <input type="text">
+                            <span>@naver.com</span>
+                        </dd>
+        
+                        <dt>비밀번호</dt>
+                        <dd>
+                            <input type="text">
+                        </dd>
+        
+                        <dt>비밀번호재확인</dt>
+                        <dd>
+                            <input type="text">
+                        </dd>
+        
+                        <dt>이름</dt>
+                        <dd>
+                            <input type="text">
+                        </dd>
+        
+                        <dt>생년월일</dt>
+                        <div class="date">
+                            <dd>
+                                <input type="text" placeholder="년(4자)" max-value="4">
+                            </dd>
+                            <dd>
+                                <select name="" id="" class="month">
                                     <option value="">월</option>
                                     <option value="">1</option>
                                     <option value="">2</option>
@@ -50,39 +60,62 @@
                                     <option value="">11</option>
                                     <option value="">12</option>
                                 </select>
+                            </dd>
+                            <dd>
                                 <input type="text" placeholder="일">
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-                <h2>성별</h2>
-                <select name="" id="">
-                    <option value="">성별</option>
-                    <option value="">남</option>
-                    <option value="">여</option>
-                </select>
-                <h2>본인 확인 이메일<span>(선택)</span></h2>
-                <input type="text" placeholder="선택입력" class="email">
-                <h2>휴대전화</h2>
-                <select name="" id="phone">
-                    <option value="">대한민국 +82</option>
-                    <option value="">홍콩 +852</option>
-                </select>
-                <input type="text" placeholder="전화번호 입력">
-                <button type="submit">인증번호 받기</button>
-                <input type="text" placeholder="인증번호 입력하세요">
-                <button type="submit">가입하기</button>
-            </fieldset>
-        </form>
-    </main>
-    <footer class="bg3 bg">
-        <div class="btm">
-            <p>이용약관</p>
-            <p>개인정보처리방침</p>
-            <p>책임의 한계와 법적고지</p>
-            <p>회원정보 고객센터</p>
+                            </dd>
+                        </div>
+        
+                        <dt>성별</dt>
+                        <dd>
+                            <select name="" id="gender">
+                                <option value="">성별</option>
+                                <option value="">남자</option>
+                                <option value="">여자</option>
+                            </select>
+                        </dd>
+        
+                        <dt>본인 확인 이메일 
+                            <span>(선택)</span>
+                        </dt>
+                        <dd>
+                            <input type="text" placeholder="선택입력">
+                        </dd>
+        
+                        <dt>휴대전화</dt>
+                        <dd>
+                            <select name="" id="" class="phone">
+                                <option value="">대한민국 +82</option>
+                                <option value="">홍콩 +852</option>
+                            </select>
+                        </dd>
+                        <dd class="number">
+                            <input type="text" placeholder="전화번호 입력">
+                            <button type="submit">
+                                인증번호 받기
+                            </button>
+                        </dd>
+                        <dd>
+                            <input type="text" placeholder="인증번호 입력하세요">
+                        </dd>
+                    </dl>
+                    <button type="submit">
+                        가입하기
+                    </button>
+                </fieldset>
+            </form>
         </div>
-        <p>NAVER Copyright © NAVER Corp. All Rights Reserved.</p>
+    </main>
+    <footer>
+        <div>
+            <a href="">이용약관</a>
+            <a href="">개인정보처리방침</a>
+            <a href="">책임의 한계와 법적고지</a>
+            <a href="">회원정보 고객센터</a>
+        </div>
+        <p>
+            NAVER Copyright © NAVER Corp. All Rights Reserved.
+        </p>
     </footer>
 </body>
 </html>
