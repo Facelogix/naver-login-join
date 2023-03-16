@@ -65,12 +65,19 @@ main .containal form fieldset dl dd .phone {width: 100%; border: none;}
 main .containal form fieldset dl dd .phone option {}
 main .containal form fieldset dl dd button {
     background-color: #03c75a; color: #fff;
+    font-size: 0.75rem;
 }
-main .containal form fieldset > button {width: 100%; background-color: #03c75a; color: #fff; padding: 25px; margin-top: 10px;}
+main .containal form fieldset > button {
+    width: 100%; background-color: #03c75a; color: #fff;
+     padding: 25px; margin-top: 10px;}
 
 
 /* 하단부 */
-footer {}
+footer {text-align: center;}
 footer div {}
-footer div a {}
-footer p {}
+footer div a {font-size: 0.75rem; }
+footer div a::after {
+    width: 1px; height: 10px; background-color: #000;
+    margin-left: 10px; margin-right: 5px; content: ''; display: inline-block;
+}
+footer p {font-size: 0.75rem; margin-top: 15px;}
