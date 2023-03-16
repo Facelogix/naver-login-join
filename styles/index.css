@@ -1,30 +1,33 @@
-.start_login {
-    
+main {}
+main .box {
+    border:1px solid #cccccc;
+    padding:40px 30px;
+    display:inline-block;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    width:350px;
+    margin: 80px auto;
+    background: #f5f6f7;
 }
-.start_login .box {
-    margin:100px auto;
-    background: #f7f9fa;
-    border:1px solid #dae1e6;
-    width: 350px;
-    padding: 50px 20px;
-}
-.start_login .box p {
-    margin-bottom: 30px;
-    font-size: 1rem;
-}
-.start_login .box #login{
-    background: #19ce60;
-    padding: 10px 100px;
-    color:white;
+main .box p {font-size:0.8rem;}
+main .box p:nth-child(1) {padding-bottom:15px;}
+main .box p:nth-child(2) {
+    padding: 17px 0;
+    display: inline-block;
     text-align: center;
+    background:#03c75a;
 }
-.start_login .box .btm_box{
-    padding-top: 20px;
+main .box p button {
+    color:#fff;
+    font-weight: 600;
+}
+main .box .login_btm {
+    padding-top:10px;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow:row nowrap;
     justify-content: space-between;
 }
-.start_login .box .btm_box a {
-    font-size: 0.75rem;
-    
-}
+main .box .login_btm .idpw {}
+main .box .login_btm .idpw a {font-size:0.8rem;}
+main .box .login_btm a {font-size:0.8rem;}
