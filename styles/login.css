@@ -56,7 +56,7 @@ main #loginFrm fieldset .login_btm .keep_login #keep_login {}
 main #loginFrm fieldset .login_btm .keep_login span {}
 main #loginFrm fieldset .login_btm .btm_right a {}
 main #loginFrm fieldset .login_btm .btm_right a span {}
-main #loginFrm fieldset .login_btm .btm_right a span em {color: #19ce60;}
+main #loginFrm fieldset .login_btm .btm_right a span em {color: #03c75a;}
 main #loginFrm fieldset .login_btm .btm_right a:last-child span {
     text-decoration: underline;}
     main #loginFrm fieldset .login_btm .btm_right a:last-child span::before {
@@ -72,7 +72,7 @@ main #loginFrm fieldset .find {
     flex-flow: row nowrap;
     justify-content: center;
 }
-main #loginFrm fieldset .login_option a {
+main #loginFrm fieldset .login_option a {display: inline-block;
     padding-left: 10px;}
 main #loginFrm fieldset .login_option a p::after {
     width: 1px; height: 13px;
@@ -86,19 +86,19 @@ main footer {
     text-align: center;
     margin-top: 30px;
 }
-main footer .f_top {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+main footer .top {padding-top: 20px;}
+main footer .top a {
+    font-size: 0.75rem;
 }
-main footer .top a {}
 main footer .top a p {}
-main footer .top a p::after {
-    width: 1px; height: 13px;
+main footer .top a::after {
+    width: 1px; height: 10px;
     content: ''; background-color: #8e8e8e;
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
 }
 main footer .top a:last-child p::after {display: none;}
-main footer p {padding-top: 15px;}
+main footer p {padding-top: 15px;
+    font-size: 0.75rem;
+}

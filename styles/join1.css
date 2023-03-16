@@ -2,7 +2,7 @@
 body {background:#f5f6f7;}
 .select_lang, .main {margin: 0 auto;}
 .select_lang {
-    background-color: blue;
+    /* background-color: blue; */
     width: 768px; text-align: right;
 }
 .select_lang #lang {
@@ -10,10 +10,10 @@ body {background:#f5f6f7;}
     padding: 3px 8px;
 }
 .select_lang #lang option {}
-.main {background-color: cornflowerblue;
+.main {/* background-color: cornflowerblue; */
     width: 460px; 
 }
-.main h1 {background-color: aquamarine;
+.main h1 {/* background-color: aquamarine; */
     display: flex; flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center; margin: 50px 0;
@@ -21,14 +21,16 @@ body {background:#f5f6f7;}
 .main h1 a {}
 .main h1 a img {}
 /* 이용약관 체크박스 */
-.main #mbFrm {background-color: cadetblue;}
+.main #mbFrm {/* background-color: cadetblue; */}
 .main #mbFrm fieldset {}
 .main #mbFrm fieldset ul {}
-.main #mbFrm fieldset ul li {}
+.main #mbFrm fieldset ul li {
+    padding: 10px 0;
+}
 .main #mbFrm fieldset ul li input {}
-.main #mbFrm fieldset ul li label {background-color:blanchedalmond;
+.main #mbFrm fieldset ul li label {/* background-color:blanchedalmond; */
     font-size: 1rem; line-height: 1.5em; letter-spacing: -0.02em;
-    font-weight: 500;
+    font-weight: 500; 
 }
 .main #mbFrm fieldset ul li:nth-of-type(3) > h2 {
     /* background-color: aqua; */
@@ -50,11 +52,13 @@ body {background:#f5f6f7;}
 .main #mbFrm fieldset ul li #txt02 {}
 .main #mbFrm fieldset ul li #txt03 {}
 .main #mbFrm fieldset ul li #txt04 {}
+
+
 .main #mbFrm fieldset ul li .txt_box {
     /* width: 100%; */
-    height: 100px;
+    height: 100px; background-color: #fff;
     border: 1px solid #ccc;
-    overflow: auto;
+    overflow: auto; margin-top: 20px;
 }
 .main #mbFrm fieldset ul li .txt_box h2 {
     line-height: 1.5em; letter-spacing: -0.02em;
@@ -74,14 +78,14 @@ body {background:#f5f6f7;}
     padding: 20px 0; margin: 10px 0;
 }
 .main #mbFrm fieldset .submit #cancel {
-    background-color:#08a600 ;
+    background-color:#08a600 ; color: #fff;
 }
-.main #mbFrm fieldset .submit #submit {
-    background-color:#cccccc ;
+.main #mbFrm fieldset .submit a {
+    background-color:#8e8e8e ; color: #fff; text-align: center;
 }
 .main .group_su{
     display: flex; flex-flow: row nowrap;
-    justify-content: space-between; margin: 10px 70px;
+    justify-content: space-between; margin: 10px 70px 60px;
 }
 .main .group_su p {
     font-size: 0.75rem; line-height: 1.5em; letter-spacing: -0.02em;
@@ -90,8 +94,8 @@ body {background:#f5f6f7;}
     font-size: 0.75rem; line-height: 1.5em; letter-spacing: -0.02em;
     text-decoration: underline;
 }
-.main .fnb {background-color:coral;
-    text-align: center; margin-top: 50px 0;
+.main .fnb {/* background-color:coral; */
+    text-align: center; /* margin-top: 50px 0; */
 }
 .main .fnb .top {}
 .main .fnb .top a {
@@ -102,4 +106,7 @@ body {background:#f5f6f7;}
     display: inline-block; margin: 0 10px;
 }
 .main .fnb .top a:last-child::after {display: none;}
-.main .fnb .copy {}
+.main .fnb .copy {
+    margin-top: 5px;
+    font-size: 0.75rem; line-height: 1.5em; letter-spacing: -0.02em;
+}
